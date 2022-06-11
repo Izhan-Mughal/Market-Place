@@ -22,16 +22,16 @@ const progressInstance = <ProgressBar className='height_custom rounded-0'  now={
             <div>
               <h2 className='Lime_text font_1'>Shapes Vol2</h2>
               <p className='fs-custom-s text-white mt-3'> Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Laudantium <br className="d-none d-lg-block" /> enim totam officiis. </p>
-              <div className="d-flex justify-content-around mt-5">
-                <div>
-                  <button className="btn btn_lime">Price: 0.05</button>
+              <div className="d-lg-flex justify-content-around mt-5 d-block">
+                <div className='text-center'>
+                  <button className="btn btn_lime my-2 my-lg-0">Price: 0.05</button>
                 </div>
-                <div>
-                  <button className="btn btn_lime">Items: 242</button>
+                <div className='text-center'>
+                  <button className="btn btn_lime my-2 my-lg-0">Items: 242</button>
 
                 </div>
-                <div>
-                  <button className="btn btn_lime">Royalties: 8%</button>
+                <div className='text-center'>
+                  <button className="btn btn_lime my-2 my-lg-0">Royalties: 8%</button>
 
                 </div>
               </div>

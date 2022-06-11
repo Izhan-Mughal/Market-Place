@@ -15,7 +15,7 @@ export default function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="col d-flex justify-content-between align-items-lg-center ">
-                            <div className='d-flex col justify-content-center flex-lg-row flex-column algn-items-lg-center align-items-start '>
+                            <div className='d-flex col justify-content-center flex-lg-row flex-column algn-items-lg-center '>
                    <div className="d-flex input_custom2">
                    <div >
                                 <AiOutlineSearch className="fs-5"/>

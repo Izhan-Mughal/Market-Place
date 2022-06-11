@@ -239,6 +239,13 @@ button.active{
   border-bottom-right-radius: 20px ; */
   background-color: #BBF247;
 }
+.btn-warning3{
+  /* padding: 2px 25px 2px 25px!important; */
+  border-radius: 30px;
+  /* border-top-right-radius: 20px ;
+  border-bottom-right-radius: 20px ; */
+  background-color: #BBF247;
+}
 /* Page 2 */
 .btn_lime{
   background-color: #BBF247;
@@ -270,12 +277,19 @@ button.active{
 .px-6{
   padding: .4rem 3rem;
 }
+.icon_1{
+  font-size: 70px;
+}
 @media (max-width:475px) {
   .border-custom-c{
 border:none!important;
   }
   .input_custom{
     width: 100%!important;
+    align-items: none!important;
+  }
+  .icon_1{
+    font-size: 30px;
   }
   .w_50{
     width: 100%;
@@ -304,6 +318,16 @@ left: 35px;
   .position_2{
     width: 75%;
     left: 15px;
+    }
+    .position_3{
+display: none;
+    }
+ 
+}
+@media screen and (min-width:350px) and (max-width:370px) {
+  .position_2{
+    width: 75%;
+    left: -10px;
     }
     .position_3{
       position: absolute;
